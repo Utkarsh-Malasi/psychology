@@ -73,6 +73,11 @@ body{
     height: 50vh;
     width: 100%;
   }
+.fonta{
+    font-family: "Bad Script", serif;
+    font-weight: 500;
+    font-size: x-large;
+  }
   .padding{
     padding: 10px;
   }
