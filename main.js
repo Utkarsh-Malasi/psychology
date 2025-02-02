@@ -22,21 +22,24 @@ document.addEventListener('DOMContentLoaded', () => {
      }
    )
   });
-let toggle = false;
+  let toggle = true;
 document.querySelector('.togie').addEventListener('click', () => {
- toggle = !toggle;
- if(toggle){
-  document.querySelector('nav').classList.remove('hidden');
-  document.querySelector('nav').classList.add('flex');
-  document.querySelector('nav').classList.add('bg');
- }else{
-  document.querySelector('nav').classList.remove('flex');
-  document.querySelector('nav').classList.add('hidden');
- }
+  if (toggle) {
+    document.querySelector('nav').classList.remove('hidden');
+    document.querySelector('nav').classList.add('flex');
+    document.querySelector('nav').classList.add('bg');
+    document.querySelector(".main").classList.add("fonta")
+  } else {
+    document.querySelector('nav').classList.remove('flex');
+    document.querySelector('nav').classList.add('hidden');
+    document.querySelector(".main").classList.remove("fonta")
+  }
 
-
-
+  // Toggle the state
+  toggle = !toggle;
 });
+
+
 
 
 })
