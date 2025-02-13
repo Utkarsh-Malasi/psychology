@@ -33,13 +33,13 @@ body{
   }
   .indie-font {
     font-family: "Indie Flower", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
   }
   .playwrite {
     font-family: "Playwrite IN", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
   }
   .exo-2 {
@@ -61,7 +61,7 @@ body{
   .logo{
     background-image: url("l2.png");
     height: 50vh;
-    width: 100%;
+    width: 35%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,3 +85,12 @@ body{
   .bg{
     background-color: #24706e;
   }
+.dp{
+  background-image: url("dp.jpg");
+  width: 350px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: #141a19 dashed 6px;
+  background-position: center;
+}
